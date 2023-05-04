@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "description": "html-builder task for RSSchool",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "author": "evgeniimal",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/EvgeniiMal/html-builder-black/issues"
+    "url": "https://github.com/EvgeniiMal/HTML-builder/issues"
   },
-  "homepage": "https://github.com/EvgeniiMal/html-builder-black#readme",
+  "homepage": "https://github.com/EvgeniiMal/HTML-builder#readme",
   "devDependencies": {
     "@types/node": "^16.11.4",
-    "eslint": "^7.32.0"
+    "eslint": "^8.39.0"
   }
 }
