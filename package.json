@@ -4,13 +4,7 @@
   "description": "html-builder task for RSSchool",
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
-    "01": "node 01-read-file",
-    "02": "node 02-write-file",
-    "03": "node 03-files-in-folder",
-    "04": "node 04-copy-directory",
-    "05": "node 05-merge-styles",
-    "06": "node 06-build-page"
+    "lint:fix": "eslint . --fix"
   },
   "author": "evgeniimal",
   "license": "ISC",
@@ -20,6 +14,6 @@
   "homepage": "https://github.com/EvgeniiMal/HTML-builder#readme",
   "devDependencies": {
     "@types/node": "^16.11.4",
-    "eslint": "^8.39.0"
+    "eslint": "^8.40.0"
   }
 }
