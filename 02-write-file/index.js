@@ -12,7 +12,7 @@ fs.writeFile(outFilePath, '', (err) => {
 
 stdin.on('data', (data) => {
   let inputText = data.toString();
-  if (inputText === 'exit' + inputText.slice(-2)) {
+  if (inputText.trim() === 'exit') {
     process.exit();
   } else {
     fs.appendFile(outFilePath, inputText, (err) => {
@@ -22,4 +22,5 @@ stdin.on('data', (data) => {
   }
 });
 
+process.on('SIGINT', () => process.exit());
 process.on('exit', () => stdout.write('Упорства в изучении Node.js!'));
